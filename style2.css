@@ -1,0 +1,75 @@
+@media (min-width: 576px) {
+  .heading h1 {
+    font-size: 1.4em;
+  }
+  .subheading h2 {
+    font-size: 1.3em;
+  }
+  .selected {
+    flex-flow: row wrap;
+  }
+  .selected-expression,
+  .selected-frame,
+  .merged-image-area {
+    width: 240px;
+    height: 240px;
+  }
+
+  .selected-frame {
+    width: 193px;
+  }
+
+  .merged-image-area {
+    border: 2px solid blue;
+    width: 257px;
+    height: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading h1 {
+    margin: auto;
+    font-size: 1.7em;
+  }
+
+  .heading .chibi {
+    width: 100px;
+    margin: 0 10px 0 0;
+  }
+
+  .subheading h2 {
+    font-size: 1.5em;
+  }
+
+  .card {
+    width: 165px;
+    height: 100%;
+    margin: 22px 20px;
+  }
+
+  .selected-expression,
+  .selected-frame,
+  .merged-image-area {
+    width: 250px;
+    height: 250px;
+    margin: 20px 40px;
+  }
+
+  .selected-frame {
+    width: 202px;
+  }
+
+  .merged-image-area {
+    border: 2px solid blue;
+    width: 402px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 175px;
+    height: 100%;
+    margin: 24px 20px;
+  }
+}
