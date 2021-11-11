@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-image: url("assets/backgrond2.png");
+  background-image: url("/backgrond2.8f3ae5f2.png");
   background-size: contain;
   /* background-color: rgb(255, 230, 191); */
   min-width: 100%;
@@ -528,3 +528,6 @@ footer section {
     max-width: 1400px;
   }
 }
+
+
+/*# sourceMappingURL=/style.2525e39e.css.map */
