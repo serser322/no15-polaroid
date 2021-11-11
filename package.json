@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.5",
-    "merge-images": "^2.0.0"
+    "merge-images": "^2.0.0",
+    "text-image": "^0.7.0"
   }
 }
