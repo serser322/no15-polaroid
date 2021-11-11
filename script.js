@@ -104,7 +104,7 @@ downloadBtn.addEventListener("click", () => {
     return;
   }
 
-  saveAs(imgPath, "老婆貓貓.png");
+  saveAs(imgPath, "15號.png");
   triggerAlert(alertDownloadNodeList, false);
 });
 
