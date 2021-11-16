@@ -413,6 +413,7 @@ function getCustomTextImage() {
   }
 
   textImg.src = textCanvas.canvas.toDataURL();
+  textCanvas.clearRect(0, 0, 510, 120); //Clear canvas
 }
 
 function toggleHidddenIntro() {
